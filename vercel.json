@@ -1,20 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "headers": [
     {
-      "source": "/api/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=600" }
-      ]
-    }
-  ],
-  "crons": [
-    {
-      "path": "/api/cron/fetch-daily-wander",
-      "schedule": "0 13 * * *"
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ]
 }

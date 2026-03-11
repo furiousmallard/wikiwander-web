@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { SyntheticEvent } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Compass,
   Footprints,
@@ -319,15 +320,15 @@ function Footer() {
     <footer className="py-12 px-6 text-center">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-wrap justify-center gap-6 text-sm text-text-secondary dark:text-text-secondary-dark mb-6">
-          <a href="/privacy" className="hover:text-teal transition-colors">
+          <Link to="/privacy" className="hover:text-teal transition-colors">
             Privacy Policy
-          </a>
-          <a href="/terms" className="hover:text-teal transition-colors">
+          </Link>
+          <Link to="/terms" className="hover:text-teal transition-colors">
             Terms of Use
-          </a>
-          <a href="/support" className="hover:text-teal transition-colors">
+          </Link>
+          <Link to="/support" className="hover:text-teal transition-colors">
             Support
-          </a>
+          </Link>
         </div>
         <p className="text-sm text-text-secondary dark:text-text-secondary-dark">
           A project of{' '}
