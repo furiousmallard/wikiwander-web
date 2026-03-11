@@ -10,7 +10,7 @@ export default function Terms() {
           className="inline-flex items-center gap-2 text-teal hover:text-teal-dark transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to WikiWander
+          Back to WikiWanderer
         </Link>
 
         <h1 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-2">
@@ -22,7 +22,7 @@ export default function Terms() {
 
         <div className="prose prose-navy max-w-none">
           <p className="text-text-secondary mb-6">
-            Welcome to WikiWander! By using our app, you agree to these Terms of
+            Welcome to WikiWanderer! By using our app, you agree to these Terms of
             Use. Please read them carefully.
           </p>
 
@@ -30,7 +30,7 @@ export default function Terms() {
             1. Service Description
           </h2>
           <p className="text-text-secondary mb-4">
-            WikiWander is an iOS application that provides:
+            WikiWanderer is an iOS application that provides:
           </p>
           <ul className="list-disc pl-6 text-text-secondary mb-6 space-y-2">
             <li>Access to Wikipedia's featured articles through an enhanced reading experience</li>
@@ -43,7 +43,7 @@ export default function Terms() {
             2. Subscription and Payment
           </h2>
           <p className="text-text-secondary mb-4">
-            WikiWander may offer subscription-based features:
+            WikiWanderer may offer subscription-based features:
           </p>
           <ul className="list-disc pl-6 text-text-secondary mb-6 space-y-2">
             <li>Subscriptions are billed through Apple's App Store</li>
@@ -56,7 +56,7 @@ export default function Terms() {
             3. Acceptable Use
           </h2>
           <p className="text-text-secondary mb-4">
-            When using WikiWander, you agree not to:
+            When using WikiWanderer, you agree not to:
           </p>
           <ul className="list-disc pl-6 text-text-secondary mb-6 space-y-2">
             <li>Use the app for any unlawful purpose</li>
@@ -69,8 +69,8 @@ export default function Terms() {
             4. Content and Intellectual Property
           </h2>
           <p className="text-text-secondary mb-6">
-            Wikipedia content displayed in WikiWander is provided by Wikipedia
-            and is subject to Wikipedia's licensing terms. WikiWander's app
+            Wikipedia content displayed in WikiWanderer is provided by Wikipedia
+            and is subject to Wikipedia's licensing terms. WikiWanderer's app
             design, features, and original content are owned by Mallard
             Foundries.
           </p>
@@ -91,7 +91,7 @@ export default function Terms() {
             6. Disclaimer of Warranties
           </h2>
           <p className="text-text-secondary mb-6">
-            WikiWander is provided "as is" without warranties of any kind,
+            WikiWanderer is provided "as is" without warranties of any kind,
             either express or implied. We do not guarantee that the app will be
             uninterrupted, error-free, or that Wikipedia content will always be
             available.
@@ -103,14 +103,14 @@ export default function Terms() {
           <p className="text-text-secondary mb-6">
             To the maximum extent permitted by law, Mallard Foundries shall not
             be liable for any indirect, incidental, special, consequential, or
-            punitive damages resulting from your use of WikiWander.
+            punitive damages resulting from your use of WikiWanderer.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-navy mt-8 mb-4">
             8. Changes to the Service
           </h2>
           <p className="text-text-secondary mb-6">
-            We reserve the right to modify, suspend, or discontinue WikiWander
+            We reserve the right to modify, suspend, or discontinue WikiWanderer
             at any time. We will provide reasonable notice of significant
             changes when possible.
           </p>
@@ -119,7 +119,7 @@ export default function Terms() {
             9. Termination
           </h2>
           <p className="text-text-secondary mb-6">
-            You may stop using WikiWander at any time by deleting the app. We
+            You may stop using WikiWanderer at any time by deleting the app. We
             may terminate or suspend your access if you violate these Terms.
           </p>
 
@@ -128,7 +128,7 @@ export default function Terms() {
           </h2>
           <p className="text-text-secondary mb-6">
             We may update these Terms from time to time. Continued use of
-            WikiWander after changes constitutes acceptance of the new Terms.
+            WikiWanderer after changes constitutes acceptance of the new Terms.
           </p>
 
           <h2 className="font-serif text-xl font-bold text-navy mt-8 mb-4">

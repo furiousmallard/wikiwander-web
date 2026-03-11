@@ -73,15 +73,15 @@ export default async function handler(
     const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>WikiWander Daily</title>
-    <link>https://wikiwander.me</link>
-    <description>Daily featured Wikipedia articles from WikiWander</description>
+    <title>WikiWanderer Daily</title>
+    <link>https://wikiwanderer.app</link>
+    <description>Daily featured Wikipedia articles from WikiWanderer</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <image>
-      <url>https://wikiwander.me/appicon.png</url>
-      <title>WikiWander Daily</title>
-      <link>https://wikiwander.me</link>
+      <url>https://wikiwanderer.app/appicon.png</url>
+      <title>WikiWanderer Daily</title>
+      <link>https://wikiwanderer.app</link>
     </image>
 ${items}
   </channel>

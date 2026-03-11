@@ -85,7 +85,7 @@ export default async function handler(
       `https://en.wikipedia.org/api/rest_v1/feed/featured/${year}/${month}/${day}`,
       {
         headers: {
-          'User-Agent': 'WikiWander/1.0 (https://wikiwander.me; hello@mallardfoundries.com)',
+          'User-Agent': 'WikiWanderer/1.0 (https://wikiwanderer.app; hello@mallardfoundries.com)',
         },
       }
     );

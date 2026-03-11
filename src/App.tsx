@@ -84,12 +84,12 @@ function Hero() {
       <div className="max-w-2xl mx-auto">
         <img
           src="/appicon.png"
-          alt="WikiWander app icon"
+          alt="WikiWanderer app icon"
           className="w-24 h-24 mx-auto mb-6 shadow-xl"
           style={{ borderRadius: '22%' }}
         />
         <h1 className="font-serif text-4xl md:text-5xl font-bold text-navy mb-4">
-          WikiWander
+          WikiWanderer
         </h1>
         <p className="text-xl text-text-secondary mb-8">
           Let's get lost in Wikipedia
@@ -289,9 +289,9 @@ function ScreenshotImage({ src, alt }: { src: string; alt: string }) {
 
 function Screenshots() {
   const screenshots = [
-    { src: '/screenshots/homescreen.webp', alt: 'WikiWander home screen' },
-    { src: '/screenshots/wheretonext.webp', alt: 'WikiWander article view' },
-    { src: '/screenshots/journey.webp', alt: 'WikiWander journey tracker' },
+    { src: '/screenshots/homescreen.webp', alt: 'WikiWanderer home screen' },
+    { src: '/screenshots/wheretonext.webp', alt: 'WikiWanderer article view' },
+    { src: '/screenshots/journey.webp', alt: 'WikiWanderer journey tracker' },
   ];
 
   return (

@@ -10,7 +10,7 @@ export default function Privacy() {
           className="inline-flex items-center gap-2 text-teal hover:text-teal-dark transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to WikiWander
+          Back to WikiWanderer
         </Link>
 
         <h1 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-2">
@@ -22,7 +22,7 @@ export default function Privacy() {
 
         <div className="prose prose-navy max-w-none">
           <p className="text-text-secondary mb-6">
-            WikiWander is committed to protecting your privacy. This Privacy
+            WikiWanderer is committed to protecting your privacy. This Privacy
             Policy explains how we handle information when you use our iOS app.
           </p>
 
@@ -30,7 +30,7 @@ export default function Privacy() {
             Information We Collect
           </h2>
           <p className="text-text-secondary mb-4">
-            WikiWander is designed with privacy in mind. We collect minimal
+            WikiWanderer is designed with privacy in mind. We collect minimal
             information:
           </p>
           <ul className="list-disc pl-6 text-text-secondary mb-6 space-y-2">
@@ -51,7 +51,7 @@ export default function Privacy() {
             Any information we collect is used solely to:
           </p>
           <ul className="list-disc pl-6 text-text-secondary mb-6 space-y-2">
-            <li>Provide and maintain the WikiWander service</li>
+            <li>Provide and maintain the WikiWanderer service</li>
             <li>Track your reading streaks and journey history</li>
             <li>Improve app performance and user experience</li>
           </ul>
@@ -70,7 +70,7 @@ export default function Privacy() {
             Third-Party Services
           </h2>
           <p className="text-text-secondary mb-6">
-            WikiWander connects to Wikipedia's public API to fetch article
+            WikiWanderer connects to Wikipedia's public API to fetch article
             content. Your requests go directly to Wikipedia's servers. We
             recommend reviewing Wikipedia's privacy policy for information about
             how they handle requests.
@@ -92,7 +92,7 @@ export default function Privacy() {
             Children's Privacy
           </h2>
           <p className="text-text-secondary mb-6">
-            WikiWander does not knowingly collect personal information from
+            WikiWanderer does not knowingly collect personal information from
             children under 13. If you are a parent or guardian and believe your
             child has provided us with personal information, please contact us.
           </p>

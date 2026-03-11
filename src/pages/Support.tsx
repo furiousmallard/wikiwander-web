@@ -26,7 +26,7 @@ export default function Support() {
           className="inline-flex items-center gap-2 text-teal hover:text-teal-dark transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to WikiWander
+          Back to WikiWanderer
         </Link>
 
         <h1 className="font-serif text-3xl md:text-4xl font-bold text-navy mb-8">
@@ -44,7 +44,7 @@ export default function Support() {
                 How does the Daily Wander work?
               </h3>
               <p className="text-text-secondary">
-                Each day, WikiWander presents you with Wikipedia's featured
+                Each day, WikiWanderer presents you with Wikipedia's featured
                 article of the day. This becomes your starting point for
                 exploration. Follow links that interest you and see where your
                 curiosity takes you!
@@ -57,7 +57,7 @@ export default function Support() {
               </h3>
               <p className="text-text-secondary">
                 Your streak increases each day you read at least one article in
-                WikiWander. Miss a day, and your streak resets. Build a habit of
+                WikiWanderer. Miss a day, and your streak resets. Build a habit of
                 daily exploration!
               </p>
             </div>
@@ -101,10 +101,10 @@ export default function Support() {
 
             <div>
               <h3 className="font-semibold text-navy mb-2">
-                Does WikiWander work offline?
+                Does WikiWanderer work offline?
               </h3>
               <p className="text-text-secondary">
-                WikiWander caches recently viewed articles for offline reading.
+                WikiWanderer caches recently viewed articles for offline reading.
                 Saved articles are also available offline. New articles require
                 an internet connection to load.
               </p>
