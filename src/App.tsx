@@ -290,9 +290,9 @@ function ScreenshotImage({ src, alt }: { src: string; alt: string }) {
 
 function Screenshots() {
   const screenshots = [
-    { src: '/screenshots/homescreen.png', alt: 'WikiWander home screen' },
-    { src: '/screenshots/wheretonext.png', alt: 'WikiWander article view' },
-    { src: '/screenshots/journey.png', alt: 'WikiWander journey tracker' },
+    { src: '/screenshots/homescreen.webp', alt: 'WikiWander home screen' },
+    { src: '/screenshots/wheretonext.webp', alt: 'WikiWander article view' },
+    { src: '/screenshots/journey.webp', alt: 'WikiWander journey tracker' },
   ];
 
   return (
