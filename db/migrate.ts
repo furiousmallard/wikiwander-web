@@ -17,10 +17,18 @@ async function migrate() {
   const sql = neon(databaseUrl);
   const schema = readFileSync(join(__dirname, 'schema.sql'), 'utf-8');
 
+  // Split into individual statements (filter out comments and empty lines)
+  const statements = schema
+    .split(';')
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0 && !s.startsWith('--'));
+
   console.log('Running migrations...');
 
   try {
-    await sql(schema);
+    for (const statement of statements) {
+      await sql.query(statement);
+    }
     console.log('Migrations completed successfully!');
   } catch (error) {
     console.error('Migration failed:', error);
