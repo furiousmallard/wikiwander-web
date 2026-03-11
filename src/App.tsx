@@ -272,15 +272,14 @@ function ScreenshotImage({ src, alt }: { src: string; alt: string }) {
   if (error) return null;
 
   return (
-    <div className="flex-shrink-0 w-48 md:w-64 rounded-3xl overflow-hidden shadow-xl bg-navy/10">
+    <div className="flex-shrink-0 w-48 md:w-64 rounded-3xl overflow-hidden shadow-xl bg-navy/10 relative">
       {!loaded && (
         <div className="skeleton w-full aspect-[9/19.5]" />
       )}
       <img
         src={src}
         alt={alt}
-        className={`w-full h-auto ${loaded ? '' : 'hidden'}`}
-        loading="lazy"
+        className={`w-full h-auto ${loaded ? '' : 'absolute inset-0 opacity-0'}`}
         onLoad={handleLoad}
         onError={handleError}
       />
