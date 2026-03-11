@@ -198,12 +198,12 @@ function DailyWanderCard() {
         <p className="text-center mt-4 text-sm text-text-secondary">
           Follow{' '}
           <a
-            href="https://bsky.app/profile/wikiwander.bsky.social"
+            href="https://bsky.app/profile/wikiwanderer.bsky.social"
             target="_blank"
             rel="noopener noreferrer"
             className="text-teal hover:text-teal-dark transition-colors"
           >
-            @wikiwander.bsky.social
+            @wikiwanderer.bsky.social
           </a>{' '}
           for daily wanders
         </p>
