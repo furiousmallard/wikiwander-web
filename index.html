@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/appicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WikiWander - Let's get lost in Wikipedia</title>
+    <meta name="description" content="WikiWander is a Wikipedia discovery app for iOS. Start from today's featured article and follow the rabbit hole wherever it takes you." />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wikiwander.me" />
+    <meta property="og:title" content="WikiWander — Let's get lost in Wikipedia" />
+    <meta property="og:description" content="WikiWander is a Wikipedia discovery app for iOS. Start from today's featured article and follow the rabbit hole wherever it takes you." />
+    <meta property="og:image" content="https://wikiwander.me/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wikiwander" />
+    <meta name="twitter:title" content="WikiWander — Let's get lost in Wikipedia" />
+    <meta name="twitter:description" content="WikiWander is a Wikipedia discovery app for iOS. Start from today's featured article and follow the rabbit hole wherever it takes you." />
+    <meta name="twitter:image" content="https://wikiwander.me/og-image.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Dark mode detection -->
+    <script>
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        document.documentElement.classList.toggle('dark', e.matches);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

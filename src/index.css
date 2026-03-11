@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-cream: #FAF8F5;
+  --color-cream-dark: #0A0A0C;
+
+  --color-teal: #4A7E8C;
+  --color-teal-light: #5A8E9C;
+  --color-teal-dark: #3A6E7C;
+
+  --color-gold: #E8B44A;
+  --color-gold-light: #EEC070;
+  --color-gold-dark: #D4A040;
+
+  --color-coral: #E8534A;
+
+  --color-navy: #1A1A2E;
+  --color-navy-light: #2A2A3E;
+
+  /* Card backgrounds */
+  --color-card: #FFFFFF;
+  --color-card-dark: #1C1C1F;
+
+  /* Text colors */
+  --color-text-primary: #1A1A2E;
+  --color-text-primary-dark: #F5F5F7;
+  --color-text-secondary: #6B6B7B;
+  --color-text-secondary-dark: #9B9BAB;
+
+  /* Font families */
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Base styles */
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode */
+.dark body {
+  background-color: var(--color-cream-dark);
+  color: var(--color-text-primary-dark);
+}
+
+/* Skeleton animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.06) 25%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.06) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.dark .skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.06) 25%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.06) 75%
+  );
+  background-size: 200% 100%;
+}
