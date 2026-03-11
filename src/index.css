@@ -44,13 +44,6 @@ body {
   margin: 0;
   background-color: var(--color-cream);
   color: var(--color-text-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Dark mode */
-.dark body {
-  background-color: var(--color-cream-dark);
-  color: var(--color-text-primary-dark);
 }
 
 /* Skeleton animation */
@@ -72,14 +65,4 @@ body {
   );
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-}
-
-.dark .skeleton {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.06) 25%,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0.06) 75%
-  );
-  background-size: 200% 100%;
 }
